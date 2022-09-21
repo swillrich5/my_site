@@ -11,7 +11,7 @@
 
 {% block content %}
     <section id="summary">
-        <h2>Post Title</h2>
+        <h2>{{ post.title }}</h2>
         <article>
             <img src="{% static "blog/images/mountains.jpg" %}" alt="post title">
             <address>by Scott</address>
@@ -24,17 +24,12 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat elit non maximus sagittis. 
            Duis tincidunt dictum dui eget mattis. Maecenas fermentum eu libero eu ornare. Suspendisse porta 
            viverra dapibus. Integer sagittis metus eget interdum ornare. Maecenas tincidunt, metus sit amet 
-           congue sagittis, mi massa varius sapien, et gravida nisi velit quis magna. Sed ac risus at sem 
-           aliquet lobortis ac in ante. Aliquam commodo pharetra lacus, ac luctus urna rutrum ut. Sed tellus 
-           ex, finibus a lacus ac, rhoncus malesuada nisl. Suspendisse ac eleifend magna. Suspendisse nec 
-           elit id justo interdum pretium quis id mi. Mauris imperdiet porta lectus, faucibus accumsan odio 
-           tempor eu. Proin et nibh diam. Etiam tristique ante nec dui hendrerit imperdiet.
+           congue sagittis, mi massa varius sapien, et gravida nisi velit quis magna. 
         </p>
         <p>
             Proin feugiat aliquam purus, a sagittis sem tempus sed. Morbi aliquet sollicitudin pharetra. 
             Etiam tellus tortor, laoreet pulvinar facilisis vitae, mattis vel dui. Fusce eleifend enim auctor 
             imperdiet sagittis. Donec semper porta vulputate. Curabitur enim nulla, ullamcorper vitae porta nec, 
-            consequat at libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-            himenaeos. In a rhoncus purus. Fusce vitae odio tellus.</p>
+            consequat at libero.</p>
     </main>
 {% endblock %}
