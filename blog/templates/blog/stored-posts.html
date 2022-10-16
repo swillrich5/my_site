@@ -13,7 +13,6 @@
     <section id="stored-posts">
         {% if not has_posts %}
             <p>You didn't save any posts for later.</p>
-            <p>{{ has_posts }}</p>
         {% endif %}
         <ul>
             {% for post in posts %}
